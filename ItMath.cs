@@ -22,6 +22,7 @@ namespace staticmethod1
             bool result = DateTime.TryParse(input, out date);
             Console.Write("Input " + input + " is a date: ");
             return result;
+
         }
     }
 }
