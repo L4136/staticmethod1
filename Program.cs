@@ -9,6 +9,15 @@ namespace staticmethod1
     {
         static void Main(string[] args)
         {
+            TestiPeti testbed = new TestiPeti();
+
+            while (true)
+            { 
+                //testbed.TestiPetiFloat();
+                testbed.TestiPetiDate();
+            }
+               
+           
         }
     }
 }
